@@ -137,6 +137,10 @@ def run_test_practice_problem3():
 
 
 def practice_problem3(start, n, threshold):
+
+
+
+
     """
     What comes in:
       -- An integer:  start

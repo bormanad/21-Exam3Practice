@@ -55,11 +55,16 @@ def run_test_zero_changer():
 
 def zero_changer(tuple_of_lists):
     count = 0
-    for k in range(len(tuple_of_lists)):
-        for j in range(k):
-            if tuple_of_lists[k] == 0:
+    new = []
+    for j in range(len(tuple_of_lists)):
+        for k in range(j):
+            if [tuple_of_lists[j]] == 0:
                 count = count + 1
-                tuple_of_lists[k] = tuple_of_lists[count]
+        new.append(tuple_of_lists[j]+count)
+    return new
+
+
+
 
 
     """
